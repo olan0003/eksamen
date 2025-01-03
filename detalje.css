@@ -1,0 +1,33 @@
+.førsteh1 {
+  text-align: center;
+  font-size: 26vw;
+  font-family: Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+.ommig1 {
+  text-align: center;
+
+  font-family: Helvetica, sans-serif;
+  font-weight: bolder;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.potrætbillede {
+  width: 40vw;
+}
+
+.galleri {
+  font-size: 24vw;
+  font-family: Helvetica, sans-serif;
+  font-weight: bolder;
+  letter-spacing: -10px;
+}
+
+.gallerih1flex {
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

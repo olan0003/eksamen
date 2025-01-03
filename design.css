@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+/************************ side 1 hero videoer**************************/
 .hero {
   margin: 0;
   padding: 0;
@@ -17,7 +18,7 @@
 .hero_div {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 50vh;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -36,6 +37,7 @@
   z-index: 1;
 }
 
+/************************hero videoer**************************/
 .hero2 {
   margin: 0;
   padding: 0;
@@ -49,7 +51,7 @@
 .hero_div2 {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 81vh;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -75,9 +77,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 82vh;
   margin: 0;
-  background-color: #f5f5f5;
 }
 
 .boxen {
@@ -92,7 +93,7 @@
   justify-content: center;
   align-items: center;
   flex: 1;
-  height: 150px;
+  height: 78vw;
   text-decoration: none;
   color: white;
   font-weight: bold;
@@ -116,7 +117,7 @@
   background-color: rgb(238, 255, 0);
 }
 
-/************************mobilfirst**************************/
+/************************mobil**************************/
 
 @media (max-width: 600px) {
   .hero-video {
@@ -125,10 +126,207 @@
     background-size: contain;
     object-fit: cover;
   }
-  .hero-video {
+
+  .hero-video2 {
     width: 100%;
     height: 350px;
     background-size: contain;
     object-fit: cover;
   }
+}
+
+/************************desktop af hero og tema box**************************/
+@media (min-width: 600px) {
+  .hero_div {
+    position: relative;
+    width: 100%;
+    height: 75vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-row: 1/4;
+    grid-column: 1;
+  }
+
+  .sectionbox {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    height: 500px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}
+
+@media (min-width: 800px) {
+  .hero_div {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-row: 1/4;
+    grid-column: 1;
+  }
+}
+
+@media (min-width: 980px) {
+  .hero_div {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-row: 1/4;
+    grid-column: 1;
+  }
+}
+
+/************************om mig**************************/
+
+.ommgiggrid {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.slidebody {
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slideshow-container {
+  position: relative;
+  width: 50%;
+  height: 500px;
+  display: flex;
+}
+.slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.slide img {
+  width: 100%;
+  height: auto;
+}
+
+.slide:first-child {
+  display: block;
+}
+.prev,
+.next {
+  position: absolute;
+  top: 38%;
+  transform: translateY(-50%);
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  cursor: pointer;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.gallerishow {
+  display: none;
+}
+
+/************************om mig desktop**************************/
+
+@media (min-width: 800px) {
+  .slidebody {
+    display: none;
+  }
+  .gallerishowbody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  .gallerishow {
+    display: block;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    max-width: 600px;
+  }
+
+  .gallerishow img {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+  }
+}
+
+/************************footer**************************/
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: auto;
+}
+
+.footerlink {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footerlink a {
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  transition: transform 0.2s, color 0.2s;
+}
+
+.footerlink a:nth-child(1):hover {
+  color: red;
+}
+
+.footerlink a:nth-child(2):hover {
+  color: blue;
+}
+
+.footerlink a:nth-child(3):hover {
+  color: green;
+}
+
+.footerlink a:nth-child(4):hover {
+  color: yellow;
+}
+
+.footer-links a:hover {
+  transform: scale(1.2);
 }
