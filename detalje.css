@@ -6,12 +6,14 @@
 }
 
 .ommig1 {
-  text-align: center;
-
+  text-align: left;
   font-family: Helvetica, sans-serif;
   font-weight: bolder;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 3vw;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .potrætbillede {
@@ -35,22 +37,35 @@
 /************************TEMA2**************************/
 
 .h1tema2 {
+  text-align: left;
+  font-family: Helvetica, sans-serif;
+  font-weight: bolder;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 3vw;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.h1tema2 {
   font-size: 19vw;
   font-family: Helvetica, sans-serif;
   font-weight: bolder;
   padding-left: 20px;
   padding-right: 30px;
   padding-top: 60px;
-  letter-spacing: -10px;
+  letter-spacing: -7px;
 }
 
 .h2tema2 {
-  padding-top: 30px;
-
+  text-align: left;
   font-family: Helvetica, sans-serif;
   font-weight: bolder;
-  padding-left: 60px;
-  padding-right: 60px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 3vw;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .tema2h2 {
@@ -61,6 +76,7 @@
   padding-left: 15px;
   padding-right: 60px;
   padding-top: 70px;
+  font-size: 4vw;
 }
 
 .billedbody {
@@ -74,18 +90,6 @@
   width: 50%;
 }
 
-@media (max-width: 600px) {
-  .h1tema2 {
-    font-size: 19vw;
-    font-family: Helvetica, sans-serif;
-    font-weight: bolder;
-    padding-left: 20px;
-    padding-right: 30px;
-    padding-top: 60px;
-    letter-spacing: -7px;
-  }
-}
-
 /************************TEMA3**************************/
 
 .tema2h33 {
@@ -95,16 +99,30 @@
   font-weight: bolder;
   padding-left: 15px;
   padding-right: 60px;
+  padding-top: 2rem;
+  font-size: 4vw;
 }
 
 .h2tema3 {
-  padding-top: 20px;
-  padding-bottom: 30px;
-
+  text-align: left;
   font-family: Helvetica, sans-serif;
   font-weight: bolder;
-  padding-left: 60px;
-  padding-right: 60px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 3vw;
+  padding-top: 0.4rem;
+  padding-bottom: 2rem;
+}
+
+.h2tema3pt2 {
+  text-align: left;
+  font-family: Helvetica, sans-serif;
+  font-weight: bolder;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 3vw;
+  padding-top: 0.4rem;
+  padding-bottom: 10rem;
 }
 
 .tema3_h1 {
@@ -114,7 +132,7 @@
 }
 
 .h1tema3 {
-  font-size: 22vw;
+  font-size: 21vw;
   font-family: Helvetica, sans-serif;
   font-weight: bolder;
   padding-top: 60px;
@@ -123,7 +141,7 @@
 
 /************************TEMA4**************************/
 
-.tema4_h1 {
+/* .tema4_h1 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -135,7 +153,7 @@
   font-weight: bolder;
   padding-top: 60px;
   letter-spacing: -10px;
-}
+} */
 
 .tema4h2 {
   text-align: right;
@@ -144,16 +162,19 @@
   font-weight: bolder;
   padding-left: 15px;
   padding-right: 60px;
+  padding-top: 2rem;
+  font-size: 4vw;
 }
 
 .h2tema4 {
-  padding-top: 20px;
-  padding-bottom: 30px;
-
+  text-align: left;
   font-family: Helvetica, sans-serif;
   font-weight: bolder;
-  padding-left: 60px;
-  padding-right: 60px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 3vw;
+  padding-top: 0.4rem;
+  padding-bottom: 2rem;
 }
 
 .tema4_h1 {
@@ -163,11 +184,21 @@
 }
 
 .h1tema4 {
-  font-size: 22vw;
+  font-size: 17vw;
   font-family: Helvetica, sans-serif;
   font-weight: bolder;
-  padding-top: 60px;
+  padding-top: 7rem;
   letter-spacing: -10px;
+  padding-bottom: 5rem;
+}
+
+.h1tema4pt2 {
+  font-size: 17vw;
+  font-family: Helvetica, sans-serif;
+  font-weight: bolder;
+  padding-top: 21px;
+  letter-spacing: -10px;
+  padding-bottom: 0rem;
 }
 
 /************************TEMA5**************************/
@@ -179,7 +210,7 @@
 }
 
 .h1tema5 {
-  font-size: 22vw;
+  font-size: 20vw;
   font-family: Helvetica, sans-serif;
   font-weight: bolder;
   padding-top: 60px;
@@ -203,4 +234,12 @@
   font-weight: bolder;
   padding-left: 60px;
   padding-right: 60px;
+}
+
+.h1tema5pt2 {
+  font-size: 18vw;
+  font-family: Helvetica, sans-serif;
+  font-weight: bolder;
+  padding-top: 60px;
+  letter-spacing: -10px;
 }
