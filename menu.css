@@ -23,24 +23,44 @@ nav ul li.logo img {
   width: auto;
 }
 
+/* nav ul li.logo dotlottie-player {
+width: 20vw;
+height: auto;
+max-width: 300px;
+} */
+
 nav ul li a {
   text-decoration: none;
   color: #f2eae4;
   font-size: 2.2rem;
+  transition: color 0.3s ease;
+}
+
+.tema2_menu:hover {
+  color: red;
+}
+.tema3_menu:hover {
+  color: blue;
+}
+.tema4_menu:hover {
+  color: greenyellow;
+}
+.tema5_menu:hover {
+  color: yellow;
 }
 
 .burger {
-  width: 30px;
-  height: 50px;
+  width: 38px;
+  height: 10px;
   cursor: pointer;
-  margin-top: 0.7rem;
-  margin-right: 0.7rem;
+  margin-top: 1.7rem;
+  margin-right: 4rem;
 }
 
 .burger .line {
-  width: 100%;
-  height: 2px;
-  background-color: black;
+  width: 6vw;
+  height: 12px;
+  background-color: rgb(255, 255, 255);
   margin-bottom: 5px;
   transition: 0.2s linear;
 }
@@ -49,17 +69,13 @@ nav ul li a {
   display: none;
 }
 
-header a:hover {
-  color: #8c0e03;
-}
-
 nav {
   display: flex;
   justify-content: space-between;
 }
 .logo_mobil {
   display: block;
-  width: 50px;
+  width: 10vw;
   margin-top: 0.7rem;
   margin-left: 0.7rem;
 }
@@ -106,4 +122,47 @@ nav.active .menu a {
 nav ul li.logo {
   flex: 0;
   display: none;
+}
+
+@media (max-width: 800px) {
+  .burger .line {
+    width: 6vw;
+    height: 8px;
+  }
+
+  .burger {
+    margin-right: 2rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .logo_mobil {
+    display: block;
+    width: 15vw;
+    margin-top: 0.7rem;
+    margin-left: 0.7rem;
+  }
+  .burger .line {
+    width: 7vw;
+    height: 8px;
+  }
+  .burger {
+    margin-right: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo_mobil {
+    display: block;
+    width: 16vw;
+    margin-top: 0.7rem;
+    margin-left: 0.7rem;
+  }
+  .burger .line {
+    width: 7vw;
+    height: 6px;
+  }
+  .burger {
+    margin-right: 1rem;
+  }
 }

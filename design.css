@@ -226,10 +226,9 @@
 /************************om mig**************************/
 
 .ommgiggrid {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .slidebody {
@@ -263,10 +262,10 @@
 .prev,
 .next {
   position: absolute;
-  top: 38%;
+  top: 50%;
   transform: translateY(-50%);
   width: auto;
-  margin-top: -22px;
+  margin-top: 0;
   padding: 16px;
   color: white;
   font-weight: bold;
@@ -284,17 +283,41 @@
   display: none;
 }
 
+.gallerishowpt2 {
+  display: none;
+}
+
+@media (max-width: 500px) {
+  .slideshow-container {
+    position: relative;
+    width: 50%;
+    height: 300px;
+    display: flex;
+    padding-bottom: 4rem;
+  }
+}
+
+@media (min-width: 700px) {
+  .slideshow-container {
+    position: relative;
+    width: 50%;
+    height: 500px;
+    display: flex;
+    padding-bottom: 4rem;
+  }
+}
+
 /************************slideshow2**************************/
 
 .pprev,
 .nnext {
   position: absolute;
-  top: 38%;
+  top: 50%;
   transform: translateY(-50%);
   width: auto;
-  margin-top: 10vw;
+  margin-top: 0;
   padding: 1px;
-  color: black;
+  color: rgb(255, 255, 255);
   font-weight: bold;
   font-size: 24px;
   transition: 0.6s ease;
@@ -314,12 +337,27 @@
   padding-bottom: 4rem;
 }
 
+@media (max-width: 430px) {
+  .slideshow-container2 {
+    position: relative;
+    width: 67%;
+    height: 221px;
+    display: flex;
+    padding-bottom: 4rem;
+  }
+}
+
 /************************om mig desktop**************************/
 
 @media (min-width: 800px) {
   .slidebody {
     display: none;
   }
+
+  .gallerishowpt2 {
+    display: none;
+  }
+
   .gallerishowbody {
     display: flex;
     justify-content: center;
@@ -358,6 +396,34 @@
   }
 }
 
+@media (min-width: 1100px) {
+  .gallerishowbody {
+    display: none;
+  }
+
+  .gallerishowbodypt2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+
+  .gallerishowpt2 {
+    display: block;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    max-width: 950px;
+  }
+
+  .gallerishowpt2 img {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+  }
+}
+
 /************************footer**************************/
 
 footer {
@@ -376,7 +442,7 @@ footer {
 
 .footerlink a {
   text-decoration: none;
-  font-size: 6rem;
+  font-size: 4.5rem;
   font-weight: bold;
   color: white;
   transition: transform 0.2s, color 0.2s;
@@ -400,6 +466,18 @@ footer {
 
 .footer-links a:hover {
   transform: scale(1.2);
+}
+
+/************************footerdesktop**************************/
+
+@media (min-width: 445px) {
+  .footerlink a {
+    text-decoration: none;
+    font-size: 6rem;
+    font-weight: bold;
+    color: white;
+    transition: transform 0.2s, color 0.2s;
+  }
 }
 
 /************************TEMA2 desktop**************************/
@@ -434,6 +512,12 @@ footer {
   width: 83%;
   height: auto;
   cursor: pointer;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.video1:hover {
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.5);
+  transform: scale(1.05);
 }
 
 .video-link {
@@ -488,7 +572,7 @@ footer {
 }
 
 .stiletileimg {
-  width: 80vw;
+  width: 58vw;
 }
 
 /************************TEMA3 desktop**************************/
@@ -517,6 +601,18 @@ footer {
   }
 }
 
+@media (min-width: 600px) {
+  .h2tema3pt2 {
+    text-align: left;
+    font-family: Helvetica, sans-serif;
+    font-weight: bolder;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 3vw;
+    padding-top: 0.4rem;
+    padding-bottom: 10rem;
+  }
+}
 /************************TEMA4**************************/
 
 .prev,
@@ -527,7 +623,7 @@ footer {
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-weight: bold;
   font-size: 24px;
   transition: 0.6s ease;
@@ -538,6 +634,38 @@ footer {
 .gallerishow3 {
   display: none;
 }
+
+.FIGMAH2 {
+  font-family: Helvetica, sans-serif;
+  font-weight: bolder;
+  padding-left: 15px;
+  padding-right: 60px;
+  padding-top: 0rem;
+  font-size: 4vw;
+}
+
+@media (min-width: 480px) {
+  .FIGMAH2 {
+    font-family: Helvetica, sans-serif;
+    font-weight: bolder;
+    padding-left: 15px;
+    padding-right: 60px;
+    padding-top: 2rem;
+    font-size: 4vw;
+  }
+}
+
+@media (min-width: 600px) {
+  .FIGMAH2 {
+    font-family: Helvetica, sans-serif;
+    font-weight: bolder;
+    padding-left: 15px;
+    padding-right: 60px;
+    padding-top: 8rem;
+    font-size: 4vw;
+  }
+}
+
 /************************TEMA4 desktop**************************/
 @media (min-width: 800px) {
   .gallerishowbody3 {
