@@ -107,19 +107,19 @@
 }
 
 .rød:hover {
-  background-color: red;
+  background-color: var(--rød);
 }
 
 .blå:hover {
-  background-color: rgb(34, 82, 206);
+  background-color: var(--blå);
 }
 
 .grøn:hover {
-  background-color: rgb(81, 255, 1);
+  background-color: var(--grøn);
 }
 
 .gul:hover {
-  background-color: rgb(238, 255, 0);
+  background-color: var(--gul);
 }
 
 /************************mobil**************************/
@@ -449,19 +449,19 @@ footer {
 }
 
 .footerlink a:nth-child(1):hover {
-  color: red;
+  color: var(--rød);
 }
 
 .footerlink a:nth-child(2):hover {
-  color: blue;
+  color: var(--blå);
 }
 
 .footerlink a:nth-child(3):hover {
-  color: green;
+  color: var(--grøn);
 }
 
 .footerlink a:nth-child(4):hover {
-  color: yellow;
+  color: var(--gul);
 }
 
 .footer-links a:hover {

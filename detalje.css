@@ -1,8 +1,20 @@
+html {
+  /************************FARVEKODER**************************/
+  --rød: red;
+  --blå: rgb(34, 82, 206);
+  --grøn: rgb(81, 255, 1);
+  --gul: rgb(238, 255, 0);
+  --grå: rgb(115, 112, 112);
+}
+
 .førsteh1 {
   text-align: center;
-  font-size: 26vw;
-  font-family: Helvetica, sans-serif;
+  font-size: 24vw;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
+  padding-top: 35vw;
+  letter-spacing: -5px;
+  line-height: 15vw;
 }
 
 .ommig1 {
@@ -12,8 +24,9 @@
   padding-left: 2rem;
   padding-right: 2rem;
   font-size: 3vw;
-  padding-top: 2rem;
+  padding-top: 6rem;
   padding-bottom: 2rem;
+  line-height: 4vw;
 }
 
 .potrætbillede {
@@ -36,25 +49,26 @@
 
 /************************TEMA2**************************/
 
-.h1tema2 {
+/* .h1tema2 {
   text-align: left;
-  font-family: Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
   padding-left: 2rem;
   padding-right: 2rem;
   font-size: 3vw;
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
+} */
 
 .h1tema2 {
-  font-size: 19vw;
-  font-family: Helvetica, sans-serif;
+  font-size: 17vw;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
-  padding-left: 20px;
+  padding-left: 8px;
   padding-right: 30px;
   padding-top: 60px;
-  letter-spacing: -7px;
+  letter-spacing: -5px;
+  line-height: 15vw;
 }
 
 .h2tema2 {
@@ -66,6 +80,7 @@
   font-size: 3vw;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  line-height: 4vw;
 }
 
 .tema2h2 {
@@ -119,8 +134,9 @@
   padding-left: 2rem;
   padding-right: 2rem;
   font-size: 3vw;
-  padding-top: 0.4rem;
+  padding-top: 2rem;
   padding-bottom: 2rem;
+  line-height: 4vw;
 }
 
 .h2tema3pt2 {
@@ -132,6 +148,7 @@
   font-size: 3vw;
   padding-top: 0.4rem;
   padding-bottom: 3rem;
+  line-height: 4vw;
 }
 
 .tema3_h1 {
@@ -141,11 +158,13 @@
 }
 
 .h1tema3 {
-  font-size: 21vw;
-  font-family: Helvetica, sans-serif;
+  font-size: 24vw;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
   padding-top: 60px;
-  letter-spacing: -10px;
+  letter-spacing: -9px;
+  line-height: 15vw;
+  padding-bottom: 8vw;
 }
 
 .figmabody {
@@ -193,27 +212,29 @@
   padding-left: 2rem;
   padding-right: 2rem;
   font-size: 3vw;
-  padding-top: 0.4rem;
+  padding-top: 2rem;
   padding-bottom: 2rem;
+  line-height: 4vw;
 }
 
 .h1tema4 {
-  font-size: 19vw;
-  font-family: Helvetica, sans-serif;
+  font-size: 23vw;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
-  padding-left: 20px;
+  padding-left: 8px;
   padding-right: 30px;
   padding-top: 60px;
-  letter-spacing: -7px;
+  letter-spacing: -5px;
+  line-height: 19vw;
 }
 
 .h1tema4pt2 {
-  font-size: 17vw;
-  font-family: Helvetica, sans-serif;
+  font-size: 24vw;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
-  padding-top: 21px;
-  letter-spacing: -8px;
-  padding-bottom: 0rem;
+  padding-top: 60px;
+  letter-spacing: -7px;
+  line-height: 15vw;
 }
 .tema4_h11 {
   display: flex;
@@ -230,18 +251,15 @@
 
 /************************TEMA5**************************/
 
-.tema5_h1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .h1tema5 {
-  font-size: 20vw;
-  font-family: Helvetica, sans-serif;
+  font-size: 17vw;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
+  padding-left: 8px;
+  padding-right: 30px;
   padding-top: 60px;
-  letter-spacing: -10px;
+  letter-spacing: -5px;
+  line-height: 15vw;
 }
 
 .tema5h2 {
@@ -254,19 +272,24 @@
 }
 
 .h2tema5 {
-  padding-top: 20px;
-  padding-bottom: 30px;
-
+  text-align: left;
   font-family: Helvetica, sans-serif;
   font-weight: bolder;
-  padding-left: 60px;
-  padding-right: 60px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 3vw;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  line-height: 4vw;
 }
 
 .h1tema5pt2 {
-  font-size: 18vw;
-  font-family: Helvetica, sans-serif;
+  font-size: 17vw;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
+  padding-left: 8px;
+  padding-right: 30px;
   padding-top: 60px;
-  letter-spacing: -10px;
+  letter-spacing: -5px;
+  line-height: 15vw;
 }
