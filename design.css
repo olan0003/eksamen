@@ -450,6 +450,7 @@
   display: flex;
   justify-content: center;
   gap: 20px;
+  background-color: black;
 }
 
 .footerlink a {
@@ -825,11 +826,28 @@
   padding-top: 0.4rem;
   padding-bottom: 2rem;
 }
+.tema5h21{
+text-align: right;
+  font-family: Helvetica, sans-serif;
+  font-weight: bolder;
+  padding-left: 15px;
+  padding-right: 60px;
+  padding-top: 5w;
+  font-size: 4vw;
+  
+}
 
 /************************TEMA5 desktop**************************/
 
 @media (min-width: 800px) {
   .h2tema5 {
+    padding-left: 97px !important;
+    padding-right: 97px !important;
+    margin-bottom: 50px;
+    font-size: 2.5vw !important;
+  }
+
+  .h2tema51 {
     padding-left: 97px !important;
     padding-right: 97px !important;
     margin-bottom: 50px;
@@ -850,6 +868,12 @@
     padding-right: 170px !important;
     margin-bottom: 50px;
   }
+  .h2tema5 {
+    padding-left: 170px !important;
+    padding-right: 170px !important;
+    margin-bottom: 50px;
+  }
+
 
   .tema5h2 {
     padding-right: 12rem !important;
