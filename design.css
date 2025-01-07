@@ -382,9 +382,9 @@
   .ommig1 {
     padding-left: 97px !important;
     padding-right: 97px !important;
-    margin-top: 10vw;
     margin-bottom: 50px;
-    font-size: 2vw;
+    font-size: 2.5vw !important;
+    padding-top: 8rem !important;
   }
 
   .førsteh1 {
@@ -422,11 +422,23 @@
     aspect-ratio: 1;
     object-fit: cover;
   }
+
+  .førsteh1 {
+    padding-top: 25vw !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .ommig1 {
+    padding-left: 150px !important;
+    padding-right: 150px !important;
+    margin-bottom: 50px;
+  }
 }
 
 /************************footer**************************/
 
-footer {
+.footer {
   background-color: black;
   color: white;
   text-align: center;
@@ -442,10 +454,11 @@ footer {
 
 .footerlink a {
   text-decoration: none;
-  font-size: 4.5rem;
+  font-size: 3.5rem;
   font-weight: bold;
   color: white;
   transition: transform 0.2s, color 0.2s;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .footerlink a:nth-child(1):hover {
@@ -468,15 +481,45 @@ footer {
   transform: scale(1.2);
 }
 
+.footer1 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 3rem;
+}
+
+.footerlink1 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footerlink1 a {
+  text-decoration: none;
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: white;
+  transition: transform 0.2s, color 0.2s;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footerlink1 a:hover {
+  color: var(--grå);
+}
+
 /************************footerdesktop**************************/
 
 @media (min-width: 445px) {
   .footerlink a {
     text-decoration: none;
-    font-size: 6rem;
+    font-size: 5rem;
     font-weight: bold;
     color: white;
     transition: transform 0.2s, color 0.2s;
+  }
+  .footerlink1 a {
+    font-size: 5rem;
   }
 }
 
@@ -487,14 +530,27 @@ footer {
     padding-left: 97px !important;
     padding-right: 97px !important;
     margin-bottom: 50px;
-    font-size: 2vw;
+    font-size: 2.5vw !important;
   }
 
   .tema2h2 {
     font-size: 3vw;
 
     padding-right: 7rem !important;
-    padding-top: 70px;
+    padding-top: 5rem !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .h2tema2 {
+    padding-left: 170px !important;
+    padding-right: 170px !important;
+    margin-bottom: 50px;
+  }
+
+  .tema2h2 {
+    padding-right: 12rem !important;
+    padding-top: 11rem !important;
   }
 }
 
@@ -582,21 +638,21 @@ footer {
     padding-left: 97px !important;
     padding-right: 97px !important;
     margin-bottom: 50px;
-    font-size: 2vw;
+    font-size: 2.5vw !important;
   }
 
   .tema2h33 {
     font-size: 3vw;
 
     padding-right: 7rem !important;
-    padding-top: 70px;
+    padding-top: 5rem !important;
   }
 
   .h2tema3pt2 {
     padding-left: 97px !important;
     padding-right: 97px !important;
     margin-bottom: 50px;
-    font-size: 2vw;
+    font-size: 2.5vw !important;
     padding-bottom: 10rem;
   }
 }
@@ -613,6 +669,24 @@ footer {
     padding-bottom: 10rem;
   }
 }
+
+@media (min-width: 1200px) {
+  .h2tema3 {
+    padding-left: 170px !important;
+    padding-right: 170px !important;
+    margin-bottom: 50px;
+  }
+  .h2tema3pt2 {
+    padding-left: 170px !important;
+    padding-right: 170px !important;
+  }
+
+  .tema2h33 {
+    padding-right: 12rem !important;
+    padding-top: 11rem !important;
+  }
+}
+
 /************************TEMA4**************************/
 
 .prev,
@@ -693,14 +767,25 @@ footer {
     padding-left: 97px !important;
     padding-right: 97px !important;
     margin-bottom: 50px;
-    font-size: 2vw;
+    font-size: 2.5vw !important;
   }
 
   .tema4h2 {
     font-size: 3vw;
 
     padding-right: 7rem !important;
-    padding-top: 70px;
+    padding-top: 5rem !important;
+  }
+}
+@media (min-width: 1200px) {
+  .h2tema4 {
+    padding-left: 170px !important;
+    padding-right: 170px !important;
+    margin-bottom: 50px;
+  }
+  .tema4h2 {
+    padding-right: 12rem !important;
+    padding-top: 11rem !important;
   }
 }
 
@@ -726,7 +811,7 @@ footer {
   font-weight: bolder;
   padding-left: 15px;
   padding-right: 60px;
-  padding-top: 2rem;
+  padding-top: 10vw;
   font-size: 4vw;
 }
 
@@ -748,13 +833,26 @@ footer {
     padding-left: 97px !important;
     padding-right: 97px !important;
     margin-bottom: 50px;
-    font-size: 2vw;
+    font-size: 2.5vw !important;
   }
 
   .tema5h2 {
     font-size: 3vw;
 
     padding-right: 7rem !important;
-    padding-top: 70px;
+    padding-top: 5rem !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .h2tema5 {
+    padding-left: 170px !important;
+    padding-right: 170px !important;
+    margin-bottom: 50px;
+  }
+
+  .tema5h2 {
+    padding-right: 12rem !important;
+    padding-top: 11rem !important;
   }
 }

@@ -24,7 +24,7 @@ html {
   padding-left: 2rem;
   padding-right: 2rem;
   font-size: 3vw;
-  padding-top: 6rem;
+  padding-top: 10vw;
   padding-bottom: 2rem;
   line-height: 4vw;
 }
@@ -34,8 +34,8 @@ html {
 }
 
 .galleri {
-  font-size: 24vw;
-  font-family: Helvetica, sans-serif;
+  font-size: 22vw;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
   letter-spacing: -10px;
 }
@@ -61,7 +61,7 @@ html {
 } */
 
 .h1tema2 {
-  font-size: 17vw;
+  font-size: 16vw;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
   padding-left: 8px;
@@ -90,7 +90,7 @@ html {
   font-weight: bolder;
   padding-left: 15px;
   padding-right: 60px;
-  padding-top: 35px;
+  padding-top: 10vw;
   font-size: 4vw;
 }
 
@@ -123,7 +123,7 @@ html {
   font-weight: bolder;
   padding-left: 15px;
   padding-right: 60px;
-  padding-top: 2rem;
+  padding-top: 10vw;
   font-size: 4vw;
 }
 
@@ -180,20 +180,6 @@ html {
 
 /************************TEMA4**************************/
 
-/* .tema4_h1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.h1tema4 {
-  font-size: 22vw;
-  font-family: Helvetica, sans-serif;
-  font-weight: bolder;
-  padding-top: 60px;
-  letter-spacing: -10px;
-} */
-
 .tema4h2 {
   text-align: right;
 
@@ -201,7 +187,7 @@ html {
   font-weight: bolder;
   padding-left: 15px;
   padding-right: 60px;
-  padding-top: 2rem;
+  padding-top: 10vw;
   font-size: 4vw;
 }
 
@@ -218,7 +204,7 @@ html {
 }
 
 .h1tema4 {
-  font-size: 23vw;
+  font-size: 19vw;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
   padding-left: 8px;
@@ -252,7 +238,7 @@ html {
 /************************TEMA5**************************/
 
 .h1tema5 {
-  font-size: 17vw;
+  font-size: 16vw;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
   padding-left: 8px;
@@ -260,15 +246,6 @@ html {
   padding-top: 60px;
   letter-spacing: -5px;
   line-height: 15vw;
-}
-
-.tema5h2 {
-  text-align: right;
-
-  font-family: Helvetica, sans-serif;
-  font-weight: bolder;
-  padding-left: 15px;
-  padding-right: 60px;
 }
 
 .h2tema5 {
