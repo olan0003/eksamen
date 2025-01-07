@@ -826,15 +826,14 @@
   padding-top: 0.4rem;
   padding-bottom: 2rem;
 }
-.tema5h21{
-text-align: right;
+.tema5h21 {
+  text-align: right;
   font-family: Helvetica, sans-serif;
   font-weight: bolder;
   padding-left: 15px;
   padding-right: 60px;
   padding-top: 5w;
   font-size: 4vw;
-  
 }
 
 /************************TEMA5 desktop**************************/
@@ -873,7 +872,6 @@ text-align: right;
     padding-right: 170px !important;
     margin-bottom: 50px;
   }
-
 
   .tema5h2 {
     padding-right: 12rem !important;
