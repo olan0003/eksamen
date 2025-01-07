@@ -415,6 +415,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 10px;
     max-width: 950px;
+    padding-bottom: 12vw;
   }
 
   .gallerishowpt2 img {
@@ -832,7 +833,7 @@
   font-weight: bolder;
   padding-left: 15px;
   padding-right: 60px;
-  padding-top: 5w;
+  padding-top: 5vw;
   font-size: 4vw;
 }
 
